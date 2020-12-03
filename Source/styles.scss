@@ -1,0 +1,125 @@
+/* First we need to import the variables sass file */
+
+@import 'variables';
+
+/* We also want to reset the margin and padding and add global settings */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*font-family: 'Kaushan Script', cursive;*/
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/* Now we can begin!! */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 40px;
+    background-color: $darkGrey;
+    color: $offWhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 999;
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 150px;
+        }
+    }
+    ul {
+        display: flex;
+        width: 35%;
+        text-decoration: none;
+        letter-spacing: 5px;
+        font-size: 40px;
+        li {
+            list-style: none;
+            a {
+                padding: 0px 20px 0px;
+                text-decoration: none;
+                color: $offWhite;
+                &:hover {
+                    background-color: $offWhite;
+                    color: $darkGrey;
+                }
+            }
+        }
+    }
+}
+
+.homePage {
+    height: 100vh;
+    background-color: $darkGrey;
+    h1 {
+        text-decoration: none;
+        letter-spacing: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        color: $offWhite;
+        top: 100px;
+        font-size: 65px;
+    }
+    a {
+        position: relative;
+        bottom: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 500px;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.productsPage {
+    height: 100vh;
+    width: 100%;
+    background-color: $darkGrey;
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: $pageHeadingFontSize;
+        color: $offWhite;
+    }
+}
+
+.howToOrderPage {
+    height: 100vh;
+    background-color: $darkGrey;
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: $pageHeadingFontSize;
+        color: $offWhite;
+    }
+    p {
+        position: relative;
+        top: 80px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 80px 0px;
+        color: $offWhite;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}

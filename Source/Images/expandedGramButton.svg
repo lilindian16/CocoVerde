@@ -1,0 +1,10 @@
+<svg id="Gram_Button" data-name="Gram Button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="807" height="237" viewBox="0 0 807 237">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.977" y1="0.077" x2="0.016" y2="0.935" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cf15d5"/>
+      <stop offset="1" stop-color="#ff8000"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_10" data-name="Rectangle 10" width="807" height="237" rx="60" fill="url(#linear-gradient)"/>
+  <text id="Follow_US" data-name="Follow US" transform="translate(70 51)" fill="#e2e2e2" font-size="100" font-family="Renata-Regular, Renata" letter-spacing="0.09em"><tspan x="99.25" y="100">Follow US</tspan></text>
+</svg>
