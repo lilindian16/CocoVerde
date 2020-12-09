@@ -1,0 +1,18 @@
+<svg id="Component_7_1" data-name="Component 7 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="21" viewBox="0 0 32 21">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="32" height="21" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Large_Burger" data-name="Large Burger" clip-path="url(#clip-path)">
+    <g transform="translate(-310 -24)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="32" height="5" rx="2.5" transform="translate(310 24)" fill="#dcd5d5"/>
+    </g>
+    <g transform="translate(-310 -17)">
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" width="32" height="5" rx="2.5" transform="translate(310 24)" fill="#dcd5d5"/>
+    </g>
+    <g transform="translate(-310 -10)">
+      <rect id="Rectangle_3-3" data-name="Rectangle 3" width="32" height="5" rx="2.5" transform="translate(310 24)" fill="#dcd5d5"/>
+    </g>
+  </g>
+</svg>
